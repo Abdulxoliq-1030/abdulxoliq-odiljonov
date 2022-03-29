@@ -1,0 +1,48 @@
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 4rem;
+    .company-card {
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .card-title {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.9rem;
+            padding: 1.5rem 0;
+        }
+
+        .card-footerr {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            color: #29DBCC;
+
+
+            a {
+                font-size: 1.5rem;
+                color: #29DBCC;
+            }
+        }
+
+    }
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+}

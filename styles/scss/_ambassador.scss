@@ -1,0 +1,46 @@
+.ambassador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .ambassador-left {
+        width: 70%;
+    }
+
+    .ambassador-right {
+        h1 {
+            font-size: 5rem;
+            color: #444B51;
+        }
+
+        p {
+            font-size: 2rem;
+            padding: 1.5rem;
+        }
+
+        .btn {
+            @include btnPrimary();
+            width: 20%;
+            padding: 1.2rem 1.7rem;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        flex-direction: column-reverse;
+        text-align: center;
+
+
+        img {
+            width: 100%;
+        }
+
+        .ambassador-right {
+            margin-bottom: 4rem;
+
+            .btn {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  ul li {
+      list-style: none;
+  }
+
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+  section {
+    padding: 5rem 10%;
+  }
+
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+
+}

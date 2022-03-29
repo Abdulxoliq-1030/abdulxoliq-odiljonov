@@ -1,0 +1,25 @@
+.choose-services {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5rem;
+    gap: 2.5rem;
+
+    .choose-service {
+        text-align: center;
+        padding: 2.5rem;
+        border-radius: 20px;
+
+        h1 {
+            padding: 1.5rem;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr ;
+    }
+}

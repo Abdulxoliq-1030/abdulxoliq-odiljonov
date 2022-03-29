@@ -1,0 +1,67 @@
+.application-wrapper {
+    background: #fef8e9;
+
+
+
+    .application-section {
+
+        display: flex;
+        justify-content: space-between;
+
+     .application-left {
+         margin-top: 4rem;
+        h1 {
+            font-size: 5rem;
+            color: #444B51;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+     }
+    }
+
+    .followers {
+
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        .following {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            h2 {
+                padding: 2rem;
+                background: $primaryColor;
+                color: #fff;
+                border-radius: 50%;
+                text-align: center;
+                border: 2px solid #fff;
+            }
+        }
+
+
+        .social-medias {
+            margin-top: 3rem;
+            display: flex;
+            gap: 2.5rem;
+        }
+
+    }
+
+
+    @media (max-width: 1200px) {
+         img {
+             width: 100%;
+         }
+
+         .application-section {
+             flex-direction: column;
+
+             .application-right {
+                 margin-top: 4rem;
+             }
+         }
+    }
+}

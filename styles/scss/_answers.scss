@@ -1,0 +1,67 @@
+.answers-section {
+
+
+    .section-title {
+        
+        p {
+            font-size: 2.2rem;
+        }
+    }
+
+
+ .accordion {
+     .accordion-item {
+         padding: 1.5rem 0;
+         h2 {
+             button {
+                 font-size: 3rem;
+                 background: transparent;
+
+                 .fas {
+                     color: $primaryColor;
+                 }
+             }
+         }
+     }
+
+     .accordion-collapse {
+         .accordion-body {
+             font-size: 2.5rem;
+             padding: 2rem;
+         }
+     }
+ }
+
+
+ .answer-title {
+     text-align: center;
+     margin-top: 3rem;
+     color: $primaryColor;
+     
+
+     a {
+        color: $primaryColor;
+        font-size: 2.5rem;
+        padding: 0 .5rem;
+     }
+     
+ }
+
+ @media (max-width: 991px) {
+     .accordion {
+         .accordion-item {
+          h2 {
+            button {
+                font-size: 1.5rem;
+            }
+          }
+         }
+
+         .accordion-collapse {
+             .accordion-body {
+                 font-size: 1.3rem;
+             }
+         }
+     }
+ }
+}

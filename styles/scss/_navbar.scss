@@ -1,0 +1,38 @@
+.navbar {
+    padding: 2rem 10%;
+
+
+
+    .navbar-sign-in {
+        font-size: 1.5rem;
+        
+
+        a {
+            color: #444B51;
+            padding: 1.5rem;
+        }
+
+        .btn {
+            @include btnPrimary();
+        }
+    }
+
+    .bar {
+        display: none;
+    }
+
+    @media (max-width: 991px) {
+        display: flex;
+        
+
+        .navbar-sign-in {
+            display: none;
+        }
+
+        .bar {
+            display: inline-block;
+        }
+
+        
+    }
+}
