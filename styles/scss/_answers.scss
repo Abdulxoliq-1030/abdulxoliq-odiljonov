@@ -45,23 +45,5 @@
         padding: 0 .5rem;
      }
      
- }
-
- @media (max-width: 991px) {
-     .accordion {
-         .accordion-item {
-          h2 {
-            button {
-                font-size: 1.5rem;
-            }
-          }
-         }
-
-         .accordion-collapse {
-             .accordion-body {
-                 font-size: 1.3rem;
-             }
-         }
-     }
- }
+    }
 }

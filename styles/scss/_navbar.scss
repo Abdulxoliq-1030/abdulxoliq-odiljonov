@@ -20,19 +20,4 @@
     .bar {
         display: none;
     }
-
-    @media (max-width: 991px) {
-        display: flex;
-        
-
-        .navbar-sign-in {
-            display: none;
-        }
-
-        .bar {
-            display: inline-block;
-        }
-
-        
-    }
 }
